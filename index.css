@@ -10,7 +10,7 @@ h1{
     font-weight: bold;
     color: khaki;
     text-align: center;
-    background-image: url("./../resources/images/pattern.jpeg")
+    background-image: url("patrikaras.github.io/pattern.jpeg")
 }
 /* Observation: To go a step back in relative path enter a double dot (/../) in the url */
 
