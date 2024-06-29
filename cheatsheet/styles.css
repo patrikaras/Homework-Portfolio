@@ -66,7 +66,7 @@ color:black;
 }
 
 #ado {
-    background-image: url(https://github.com/patrikaras/patrikaras.github.io/blob/main/cheatsheet/sparkles.jpg?raw=true);
+    background-image: url(cheatsheet/sparkles.jpg);
     height: 90px;
     color:#fdff8d;
     font-size: 28px;
@@ -97,7 +97,7 @@ td {
 
 
 body {
-    background-image: url("https://github.com/patrikaras/patrikaras.github.io/blob/main/cheatsheet/pattern.png?raw=true");
+    background-image: url(cheatsheet/patter.png);
 }
 
 h2 {
