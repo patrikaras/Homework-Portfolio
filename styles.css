@@ -1,0 +1,155 @@
+/* Here begin the style rules for the css html cheatsheet*/
+@font-face {
+    font-family: Merriweather;
+    src: url(Merriweather,Open_Sans,Oswald,Playfair_Display,Playwrite_AU_VIC,etc/Merriweather/Merriweather-Black.ttf) format("truetype");   
+}
+
+/*Merriweather ends here*/
+
+@font-face{font-family: "Open Sans";
+    src: url(Merriweather,Open_Sans,Oswald,Playfair_Display,Playwrite_AU_VIC,etc/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: Oswald;
+    src: url(Merriweather,Open_Sans,Oswald,Playfair_Display,Playwrite_AU_VIC,etc/Oswald/Oswald-VariableFont_wght.ttf) format("truetype");
+}
+@font-face{
+    font-family: "Playfair Display";
+    src: url(Merriweather,Open_Sans,Oswald,Playfair_Display,Playwrite_AU_VIC,etc/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf) format("truetype");
+ }
+ @font-face{ font-family: "Plarywrite AU";
+    src: url(Merriweather,Open_Sans,Oswald,Playfair_Display,Playwrite_AU_VIC,etc/Playwrite_AU_VIC/PlaywriteAUVIC-VariableFont_wght.ttf) format("truetype");
+ }
+ @font-face{
+    font-family: "Work Sans";
+    src: url(Merriweather,Open_Sans,Oswald,Playfair_Display,Playwrite_AU_VIC,etc/Work_Sans/WorkSans-VariableFont_wght.ttf) format("truetype");
+ }
+/*Fonts end here*/
+
+nav {
+    position: sticky;
+    background-color: #1a1712;
+    color: #ffffff;
+    width: 100%;
+    padding: 16px 0;
+    
+   
+}
+
+nav li {
+    display: inline;
+    margin: 0 16px;
+    position:relative;
+    left: 665px;
+    font-family: "Open Sans";
+    letter-spacing: 2px;
+    font-weight: 700;
+    border: solid white 1px;
+    padding: 5px 5px;
+}
+
+a {
+    color: inherit;
+    text-decoration-line: inherit;
+  }
+
+nav li:hover {
+background-color: aliceblue;
+color:black;
+}
+
+
+.intro, #desc {
+    text-align: center;
+    font-family: "Playfair Display";
+}
+
+#ado {
+    background-image: url("images/sparkles.jpg");
+    height: 90px;
+    color:#fdff8d;
+    font-size: 28px;
+    font-weight:1000;
+    vertical-align: middle;
+    line-height: 90px;
+    letter-spacing: 5px;
+}
+
+body {
+    margin: 0;
+}
+
+.table-head {
+    border: black solid 1px;
+
+}
+
+#spyglass {
+    height: 250px;
+    
+}
+
+td {
+    border: black solid 1px;  
+    
+}
+
+
+body {
+    background-image: url("images/pattern.png");
+}
+
+h2 {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.desc {
+    background-color: #ffffff;
+    opacity: .85;
+    font-family: "Playwrite AU";
+font-size: 22;
+}
+
+
+
+table {
+    margin: 50px auto;
+    font-family: "Open Sans";
+    background-color: white;
+}
+
+.table-head {
+    background-color: white;
+    text-align: center;
+    font-family: Oswald;
+    font-size:large;
+}
+
+footer {
+    background-color: #1a1712;
+    color: #ffffff;
+    padding: 30px 0;
+  }
+
+  footer p {
+    position:relative;
+    top:5px;
+  }
+
+#box {
+    min-width: 200px; /*literally does nothing */
+    margin: 17px 0;
+    padding: 5px 5px; /*literally does nothing except for when it does*/
+    text-align: center;
+    
+}
+
+#example {
+    color: rgb(255, 169, 98); 
+    background-color: #201e2f;
+    opacity: 1;
+    font-family: monospace;
+}
+

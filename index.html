@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Cheatsheet</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+</head>
+
+
+
+<banner>
+    <nav>
+<ul>
+    <li><a href="#html-tables">HTML Tables</a></li>
+    <li><a href="#css-select">CSS Selectors</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+    </nav>
+</banner>
+
+<!--Banner section ends here-->
+
+<div class="intro">
+<h1>The CSS/HTML Cheatsheet!</h1>
+<img src="images/spyglass.jpg" alt="Can't believe it's finally here." id="spyglass">
+<h2>That's right folks, read it while it's hot 'n fresh!</h2>
+<h3>It's both for <span class="bold">CSS &amp; HTML</span> topics, and it's <span id="style" style="letter-spacing: 3px; font-style:italic; font-family: 'Playfair Display';">stylized~!</span></h3>
+<p id="ado">...so without further ado...</p>
+</div>
+
+<img>
+<body>
+    <!--Here begins HTML Tables topic-->
+    <div class="table-topic">
+        <h2 class="heading"><a id="html-tables">HTML Tables</a></h2>
+        <p id="desc">To begin creating a table in HTML create the element &lt;table&gt;&lt;/table&gt; and then...</p>
+        <table>
+            <thead class="table-head">
+                <tr>
+                    <td class="table-head">Element/Attribute</td>
+                    <td class="table-head">What it does</td>
+                    <td class="table-head"> Example </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="row">
+                    <td> &lt;tr&gt;</td>
+                    <td>The table row element adds a new row to the table in which data can be added.</td>
+                    <td id="example"> &lt;&gt; &lt;table&gt;<br>
+                        &lt;tr&gt; <strong>. . .</strong><br>
+                        &lt;/tr&gt;<br>
+                         &lt;/table&gt;</td>
+                </tr>
+                <tr class="row">
+                    <td> &lt;td&gt; </td>
+                    <td> The data elemnt adds a cell of data within the &lt;td&gt; row it is nested in.</td>
+                    <td id="example">&lt;table&gt;<br>
+                        &lt;tr&gt;<br>
+                        &lt;td&gt; Cell 1 data goes here &lt;/td&gt; <br>
+                        &lt;td&gt; Cell 2 data goes here &lt;/td&gt; <br>
+                        &lt;/tr&gt;<br>
+                         &lt;/table&gt;</td>
+                </tr>
+                <tr class="row">
+                    <td> &lt;thead&gt; </td>
+                    <td> The table head element nests rows which include descriptions of the cells in the same column.</td>
+                    <td id="example"> &lt;table&gt;<br>
+                        &lt;thead&gt;<br>
+                        &lt;tr&gt;<br>
+                        &lt;th&gt; heading 1 &lt;/th&gt; <br>
+                        &lt;th&gt; heading 2 &lt;/th&gt; <br>
+                        &lt;/tr&gt;<br>
+                        &lt;/thead&gt;<br>
+                            &lt;tbody&gt;<br>
+                            &lt;tr&gt;<br>
+                            &lt;td&gt; Column 1 &lt;/td&gt; <br>
+                            &lt;td&gt; Column 2 &lt;/td&gt; <br>
+                            &lt;/tr&gt;<br>
+                            &lt;/tbody&gt;<br>
+                         &lt;/table&gt;</td>
+                </tr>
+                <tr class="row">
+                    <td> &lt;tr rowspan="2"&gt;</td>
+                    <td>The <em>rowspan</em> attribute changes the horizontal size of the element it is used on. <br>
+                    For example a cell with a rowspan of 2 has a horizontal size of two cells.</td>
+                    <td id="example"> <em>see Attribute</em></td>
+                </tr>
+                <tr class="row">
+                    <td> &lt;tbody&gt;</td>
+                    <td>The table body element separates nested elements from the head and includes the main content of the table.</td>
+                    <td id="example">&lt;table&gt;<br>  
+                        &lt;tbody&gt;<br>
+                        &lt;tr&gt;<br>
+                        &lt;td&gt; Column 1 &lt;/td&gt; <br>
+                        &lt;td&gt; Column 2 &lt;/td&gt; <br>
+                        &lt;/tr&gt;<br>
+                        &lt;/tbody&gt;<br>
+                     &lt;/table&gt;</td>
+                </tr>
+                <tr class="row">
+                    <td> &lt;th&gt;</td>
+                    <td>The table heading is used to add titles to rows and columns and must be enclosed in a &lt;tr&gt; element.</td>
+                    <td id="example"> &lt;table&gt;<br>
+                        &lt;tbody&gt;<br>
+                        &lt;tr&gt;<br>
+                        &lt;th&gt; Column 1 &lt;/th&gt; <br>
+                        &lt;th&gt; Column 2 &lt;/th&gt; <br>
+                        &lt;/tr&gt;<br>
+                        &lt;tr&gt;<br>
+                        &lt;td&gt; Data Cell 1 &lt;/td&gt; <br>
+                        &lt;td&gt; Data Cell 2 &lt;/td&gt; <br>
+                        &lt;/tbody&gt;<br>
+                     &lt;/table&gt;</td></td>
+                </tr>
+                <tr class="row">
+                    <td> &lt;tr colspan="2"&gt;</td>
+                    <td>The <em>colspan</em> attribute is used to change the vertical size of the element it is used on.</td>
+                    <td id="example"> <em>see Attribute</em></td>
+                </tr>
+                <tr class="row">
+                    <td> &lt;tfoot&gt;</td>
+                    <td>Just like the table heading, the table footer is used to summarize the information<br> of the data it is placed under.</td>
+                    <td id="example">&lt;table&gt;<br>
+                        &lt;tbody&gt;<br>
+                        &lt;tr&gt;<br>
+                        &lt;td&gt; Column 1 &lt;/td&gt; <br>
+                        &lt;td&gt; Column 2 &lt;/td&gt; <br>
+                        &lt;/tr&gt;<br>
+                        &lt;/tbody&gt;<br>
+                            &lt;tfoot&gt;<br>
+                            &lt;tr&gt;<br>
+                            &lt;td&gt; Summary of Column 1 &lt;/td&gt; <br>
+                            &lt;td&gt; Summary of Column 2 &lt;/td&gt; <br>
+                            &lt;/tr&gt;<br>
+                            &lt;/tfoot&gt;<br>
+                         &lt;/table&gt;</td></td>
+                </tr>
+
+            </tbody>
+        </table>
+
+
+    </div>
+
+    <div class="selector-topic">
+<h2 class="heading"><a id="css-select">CSS Selectors and Specificity</a></h2>
+<p id="desc">In order to stylizse and edit a website, it is important to select which parts of it to alter, and organise said parts accordingly.</p>
+<table>
+    <thead class="table-head">
+        <tr>
+            <td class="table-head">Selector Type</td>
+            <td class="table-head">Explanation</td>
+            <td class="table-head"> Example </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Groups of Selectors</td>
+            <td>To apply the same CSS rules to multiple classes/IDs/elements list them separated by comas before <br> entering the styling rules.</td>
+            <td id="example">h1, h2 {<br>
+                color: red;<br>
+              }</td>
+        </tr>
+        <tr>
+            <td>Selector Chaining</td>
+            <td>CSS selectors can be chained so that rule sets apply only to elements that match all criteria. <br>
+            For example, to style an h2 header that also belongs in the "topic" class, the h2.topic chain can be used.</td>
+            <td id="example">h2.topic {<br>
+                color: blue;<br>
+              }</td>
+        </tr>
+        <tr>
+            <td>Type Selectors</td>
+            <td>CSS type selectors are used to match all elements of a given type or tag name.</td>
+            <td id="example">p { <br>
+            }</td>
+        </tr>
+        <tr>
+            <td>Class Selectors</td>
+            <td>The CSS class selector matches elements based on the contents of their class. <br> To select a class a dot '.' should be placed before the class name.</td>
+            <td id="example">.calendar-cell { <br>
+                  color: #fff;<br>
+                }</td>
+        </tr>
+        <tr>
+            <td>Selector Specificity</td>
+            <td>When determining which rule to apply, the selector with the highest specificity wins out. <br>The most specific selector type is the ID selector, followed by class selectors, followed by type selectors.</td>
+            <td id="example">h1#header { <br>
+                color: blue; <br>
+            } /* implemented */ <br>
+<br>
+              h1 {<br>
+                color: red;<br>
+              } /* Not implemented */</td>
+            </tr>
+              <tr>
+                <td>ID Selector</td>
+                <td>The ID selector matches elements based on their ID attribute. The ID selector is invoked with a # symbol before the ID name.</td>
+                <td id="example">#job-title { <br>
+                    font-weight: bold; <br>
+                  }</td>
+              </tr>
+              <tr>
+                <td>How to Link Stylesheet to HTML Code</td>
+                <td> A &lt;link&gt; element is used to link the CSS ruleset to your html code by including: the href attribute plus the directory path<br>
+                     to the CSS document, and the rel attribute mentioning said document is a stylesheet.</td>
+                <td id="example">&lt;link href="./path/to/stylesheet/style.css" rel="stylesheet" type="text/css"&gt;</td>
+              </tr>
+              <tr>
+                <td>Writing CSS in HTML</td>
+                <td>To write CSS code within your HTML code use the &lt;style&gt; element and include within it the CSS code you wish to write.</td>
+                <td id="example">&lt;style&gt; <br>
+                    h1 {<br>
+                        color: blue;<br>
+                    }<br>
+                &lt;/style&gt;</td>
+              </tr>
+              <tr>
+                <td>Inline Styles</td>
+                <td>CSS styles can be directly added to HTML elements by using the style attribute in the element's opening tag.<br>
+                     Each style declaration is ended with a semicolon.</td>
+                <td id="example">&lt;p&gt; style="color: blue; font-size: 18px;">Blue, 18-point text&lt;/p&gt;</td>
+              </tr>
+       
+    </tbody>
+
+</table>
+    </div>
+    <footer>
+        <div id="box"><a id="contact"><p>This page was made by patrikaras as part of the codecademy CSS/HTML course.</p></a></div>
+    </footer>
+    
+</body>
+
+</html>
