@@ -1,29 +1,29 @@
 /* Here begin the style rules for the css html cheatsheet*/
 @font-face {
     font-family: Merriweather;
-    src: url(Merriweather,Open_Sans,Oswald,Playfair_Display,Playwrite_AU_VIC,etc/Merriweather/Merriweather-Black.ttf) format("truetype");   
+    src: url(cheatsheet/Merriweather-Black.ttf) format("truetype");   
 }
 
 /*Merriweather ends here*/
 
 @font-face{font-family: "Open Sans";
-    src: url(Merriweather,Open_Sans,Oswald,Playfair_Display,Playwrite_AU_VIC,etc/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf) format("truetype");
+    src: url(cheatsheet/OpenSans-VariableFont_wdth,wght.ttf) format("truetype");
 }
 
 @font-face{
     font-family: Oswald;
-    src: url(Merriweather,Open_Sans,Oswald,Playfair_Display,Playwrite_AU_VIC,etc/Oswald/Oswald-VariableFont_wght.ttf) format("truetype");
+    src: url(cheatsheet/Oswald-VariableFont_wght.ttf) format("truetype");
 }
 @font-face{
     font-family: "Playfair Display";
-    src: url(Merriweather,Open_Sans,Oswald,Playfair_Display,Playwrite_AU_VIC,etc/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf) format("truetype");
+    src: url(cheatsheet/PlayfairDisplay-VariableFont_wght.ttf) format("truetype");
  }
  @font-face{ font-family: "Plarywrite AU";
-    src: url(Merriweather,Open_Sans,Oswald,Playfair_Display,Playwrite_AU_VIC,etc/Playwrite_AU_VIC/PlaywriteAUVIC-VariableFont_wght.ttf) format("truetype");
+    src: url(cheatsheet/PlaywriteAUVIC-VariableFont_wght.ttf) format("truetype");
  }
  @font-face{
     font-family: "Work Sans";
-    src: url(Merriweather,Open_Sans,Oswald,Playfair_Display,Playwrite_AU_VIC,etc/Work_Sans/WorkSans-VariableFont_wght.ttf) format("truetype");
+    src: url(cheatsheet/WorkSans-VariableFont_wght.ttf) format("truetype");
  }
 /*Fonts end here*/
 
