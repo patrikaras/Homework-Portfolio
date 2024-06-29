@@ -25,7 +25,7 @@
     font-family: "Work Sans";
     src: url(cheatsheet/WorkSans-VariableFont_wght.ttf) format("truetype");
  }
-/*Fonts end here*/
+/*Fonts end here*/ /*Font links aren't working on github right now*/
 
 nav {
     position: sticky;
@@ -66,7 +66,7 @@ color:black;
 }
 
 #ado {
-    background-image: url(cheatsheet/sparkles.jpg);
+    background-image: url(cheatsheet/sparkles.jpg); /*Link is not working right now*/
     height: 90px;
     color:#fdff8d;
     font-size: 28px;
@@ -97,7 +97,7 @@ td {
 
 
 body {
-    background-image: url(cheatsheet/patter.png);
+    background-image: url(cheatsheet/patter.png); /*Link not working right now*/
 }
 
 h2 {
