@@ -1,29 +1,29 @@
 /* Here begin the style rules for the css html cheatsheet*/
 @font-face {
     font-family: Merriweather;
-    src: url(cheatsheet/Merriweather-Black.ttf) format("truetype");   
+    src: url(/cheatsheet/Merriweather-Black.ttf) format("truetype");   
 }
 
 /*Merriweather ends here*/
 
 @font-face{font-family: "Open Sans";
-    src: url(cheatsheet/OpenSans-VariableFont_wdth,wght.ttf) format("truetype");
+    src: url(/cheatsheet/OpenSans-VariableFont_wdth,wght.ttf) format("truetype");
 }
 
 @font-face{
     font-family: Oswald;
-    src: url(cheatsheet/Oswald-VariableFont_wght.ttf) format("truetype");
+    src: url(/cheatsheet/Oswald-VariableFont_wght.ttf) format("truetype");
 }
 @font-face{
     font-family: "Playfair Display";
-    src: url(cheatsheet/PlayfairDisplay-VariableFont_wght.ttf) format("truetype");
+    src: url(/cheatsheet/PlayfairDisplay-VariableFont_wght.ttf) format("truetype");
  }
  @font-face{ font-family: "Plarywrite AU";
-    src: url(cheatsheet/PlaywriteAUVIC-VariableFont_wght.ttf) format("truetype");
+    src: url(/cheatsheet/PlaywriteAUVIC-VariableFont_wght.ttf) format("truetype");
  }
  @font-face{
     font-family: "Work Sans";
-    src: url(cheatsheet/WorkSans-VariableFont_wght.ttf) format("truetype");
+    src: url(/cheatsheet/WorkSans-VariableFont_wght.ttf) format("truetype");
  }
 /*Fonts end here*/ /*Font links aren't working on github right now*/
 
@@ -66,7 +66,7 @@ color:black;
 }
 
 #ado {
-    background-image: url(cheatsheet/sparkles.jpg); /*Link is not working right now*/
+    background-image: url(/cheatsheet/sparkles.jpg); /*Link is not working right now*/
     height: 90px;
     color:#fdff8d;
     font-size: 28px;
@@ -97,7 +97,7 @@ td {
 
 
 body {
-    background-image: url(cheatsheet/patter.png); /*Link not working right now*/
+    background-image: url(/cheatsheet/patter.png); /*Link not working right now*/
 }
 
 h2 {
