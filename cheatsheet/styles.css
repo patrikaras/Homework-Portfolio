@@ -97,7 +97,7 @@ td {
 
 
 body {
-    background-image: url('cheatsheet/pattern.png'); /*Link not working right now. Update it works if you use relative github path and enclose url in ' ' */
+    background-image: url('cheatsheet/pattern.png'); /*Link not working right now.*/
 }
 
 h2 {
