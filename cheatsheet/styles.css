@@ -78,26 +78,19 @@ color:black;
 
 body {
     margin: 0;
+    background-image: url('cheatsheet/pattern.png'); /*Link not working right now.*/
 }
 
 .table-head {
     border: black solid 1px;
-
 }
 
 #spyglass {
     height: 250px;
-    
 }
 
 td {
-    border: black solid 1px;  
-    
-}
-
-
-body {
-    background-image: url('cheatsheet/pattern.png'); /*Link not working right now.*/
+    border: black solid 1px;    
 }
 
 h2 {
@@ -111,8 +104,6 @@ h2 {
     font-family: "Playwrite AU";
 font-size: 22;
 }
-
-
 
 table {
     margin: 50px auto;
