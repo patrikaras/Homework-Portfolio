@@ -1,25 +1,25 @@
 /* Here Start the Font rules */
 @font-face {
     font-family: Merriweather;
-    src: url(resources/some-google-fonts/Merriweather/Merriweather-Black.ttf) format("truetype");   
+    src: url(./Merriweather-Black.ttf) format("truetype");   
 }
 @font-face{font-family: "Open Sans";
-    src: url(resources/some-google-fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf) format("truetype");
+    src: url(./OpenSans-VariableFont_wdth,wght.ttf) format("truetype");
 }
 @font-face{
     font-family: Oswald;
-    src: url(resources/some-google-fonts/Oswald/Oswald-VariableFont_wght.ttf) format("truetype");
+    src: url(./Oswald-VariableFont_wght.ttf) format("truetype");
 }
 @font-face{
     font-family: "Playfair Display";
-    src: url(resources/some-google-fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf) format("truetype");
+    src: url(./PlayfairDisplay-VariableFont_wght.ttf) format("truetype");
  }
  @font-face{ font-family: "Plarywrite AU";
-    src: url(resources/some-google-fonts/Playwrite_AU_VIC/PlaywriteAUVIC-VariableFont_wght.ttf) format("truetype");
+    src: url(./PlaywriteAUVIC-VariableFont_wght.ttf) format("truetype");
  }
  @font-face{
     font-family: "Work Sans";
-    src: url(resources/some-google-fonts/Work_Sans/WorkSans-VariableFont_wght.ttf) format("truetype");
+    src: url(./WorkSans-VariableFont_wght.ttf) format("truetype");
  }
 /* Here End the Font rules */
 
