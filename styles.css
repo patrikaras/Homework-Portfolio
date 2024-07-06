@@ -1,0 +1,376 @@
+/* Here Start the Font rules */
+@font-face {
+    font-family: Merriweather;
+    src: url(resources/some-google-fonts/Merriweather/Merriweather-Black.ttf) format("truetype");   
+}
+@font-face{font-family: "Open Sans";
+    src: url(resources/some-google-fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf) format("truetype");
+}
+@font-face{
+    font-family: Oswald;
+    src: url(resources/some-google-fonts/Oswald/Oswald-VariableFont_wght.ttf) format("truetype");
+}
+@font-face{
+    font-family: "Playfair Display";
+    src: url(resources/some-google-fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf) format("truetype");
+ }
+ @font-face{ font-family: "Plarywrite AU";
+    src: url(resources/some-google-fonts/Playwrite_AU_VIC/PlaywriteAUVIC-VariableFont_wght.ttf) format("truetype");
+ }
+ @font-face{
+    font-family: "Work Sans";
+    src: url(resources/some-google-fonts/Work_Sans/WorkSans-VariableFont_wght.ttf) format("truetype");
+ }
+/* Here End the Font rules */
+
+/* Default Style Starts Here*/
+
+
+.navigation { 
+    position: fixed;
+    top: 0;
+    width: 60%;
+    background-color: #b6cfee;
+    border-radius: 10px; 
+    z-index: 15;
+    display: inline;
+    
+   }
+  
+  ul{
+    margin: 20px auto;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  li {
+    font-family: 'Oswald', serif;
+    display: inline;
+    color: #6A6A6A;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 10px;
+  }
+  
+  h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #696969;
+    font-size: 40px;
+    margin-bottom: 0px;
+  } 
+  
+  
+  h2, h3, h4, h5, h6 {
+    font-family: Oswald , serif;
+    font-weight: 400;
+    color: #666666;
+    font-size: 28px;
+  } 
+
+  #grey {
+    color: #ededed;
+
+  }
+  
+  
+  body {
+    width: 60%;
+    border: 5px solid #5999e7;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background: #ededed;
+    margin: 0 auto;
+  }
+  
+  
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #8f8f8f;
+    font-size: 20px;
+  }
+
+  .fonts td {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #8f8f8f;
+    font-size: 20px;
+  }
+  
+  footer {
+    background-color: #a7c7f0;
+    position: relative;
+    right: 5%;
+    border-radius: 10px; 
+    height: 120px;
+    width: 113.7%;
+
+
+  }
+
+/* Default Style Ends Here */
+
+/* Navigation Starts */
+.nav { 
+    text-decoration: none;
+    color: #696969;
+  }
+  
+a.nav:hover {
+    text-decoration: underline;
+    color:#919191;
+  } 
+  
+a.nav:active {
+    color: #7d8563;
+  }
+/* Navigation Ends */
+
+/* Banner Starts*/
+.banner {
+    margin: 150px auto 50px auto;
+    text-align: center;
+}
+
+/*Banner Ends*/
+
+/*Divide Line Starts*/
+.divide {
+    /* border: 1px solid red; ???*/
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .line {
+    border: 2px solid hsla(73,11.9%,62.2%,0.5);
+    margin: auto;
+    width: 70%;
+  }
+
+  /*Divide Line Ends/*
+
+/* Container */
+
+.container {
+    margin-top: 0px;
+    position: relative; 
+    width: 88%;
+    padding: 0px 50px 0px 50px;
+  }
+  
+  .container h1{
+    margin-bottom: 50px;
+  }
+
+  /* Container Ends Here */
+
+  /*Color palette Starts*/
+
+  .palette {
+    padding: 10px;
+    color: #8f8f8f;
+  }
+
+  .palette h2 {
+
+    text-align: center;
+    padding: 55px;
+  }
+
+  .palette::after {
+    content: "";
+    clear: both;
+    display: block;
+    }
+  
+  #colour-box {
+    float: left;
+    margin: 20px 50px 20px 0px;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    }
+  
+  #colour-box:hover {
+    width: 480px;
+    height: 280px;
+    z-index: 15;
+  }
+
+  .sea-blue {
+background-color: #5999e7;
+  }
+
+  .sky-blue {
+    background-color: #a7c7f0;
+  }
+
+  .cloud-blue {
+    background-color:  #b6cfee;
+   }
+
+  .shade-of-grey {
+    background-color: #696969;
+  }
+  /*Color Palette Ends*/
+
+  /*Button Start*/
+  
+  /*button {
+  display:inline;
+  padding: 13px 80px 13px;
+  cursor: pointer;
+  height: 48px;
+  margin: 10px 20px 30px;
+  width: 96px;
+  border: solid 1px #6059E7;
+  border-radius: 10px;
+  
+  }*/
+
+  button {
+    display: inline;
+    margin: auto 30px;
+    
+  }
+
+  #flat {
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 2px solid #6059E7;
+    cursor: pointer;
+    position: relative;
+    color: #6059E7;
+    user-select: none;
+    -webkit-user-select: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: inline;
+  
+  }
+
+  #flat:after {
+    content: "";
+    background-color: #a7c7f0;
+    border-radius: 8px;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  #flat:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+
+  #shadow {
+    opacity: .8;
+    color:#6059E7;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    align-items: center;
+  z-index:2;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  padding: 0 25px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  display: inline;
+  }
+
+  #shadow:after {
+    background-color: #a7c7f0;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -2;
+  }
+  
+  #shadow:hover:after {
+    transform: translate(0, 0);
+  }
+  
+  #shadow:active {
+    background-color: hsla(73,11.9%,62.2%,0.9);
+    outline: 0;
+  }
+  
+  .shadow:hover {
+    outline: 0;
+  }
+
+
+  #off {
+    padding: 10px;
+    outline: none;
+    background-color:#6059E7;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 16px 56px 16px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    align-items: center;
+  }
+  /*Button End*/
+
+/*Footer Starts*/
+footer {
+  align-items: center;
+}
+
+#eh {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  color:#666666;
+  font-weight: 500;
+  font-family: Oswald;
+  font-size: 24px;
+}
+
+.logo {
+    padding: 15px;
+    cursor: point5r;
+    opacity: 0.7;
+    position: absolute;
+    right: 0;
+  }
+  
+  .github:hover, .codecademy:hover {
+    opacity: 0.5;
+  }
+  
+  .github, .codecademy {
+    height: 50px;
+    width: 50px;
+    padding-right: 10px;
+  }
+/*Footer Ends */
