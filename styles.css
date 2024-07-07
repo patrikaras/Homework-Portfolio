@@ -1,0 +1,200 @@
+/* General */
+
+body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: .9;   
+}
+
+
+/* Header */
+
+.header {
+    min-width: 69px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: inline-flex;
+    background-color: black;
+}
+
+.nav{
+    position: fixed;
+    width: 96%;
+    display: inline-flex;
+    justify-content: flex-end;
+    z-index: 2;
+}
+
+/* Banner */
+
+.banner {
+    width:1200px;
+    height:700px;
+    margin: auto;
+    background-image: url('./images/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 1px antiquewhite;
+    display: flex;
+    align-items: center;
+}
+
+/*Tea of the Month*/
+
+.month {
+    margin: auto;
+    /*border: solid 1px aquamarine;*/
+    width: 1000px;
+    
+}
+
+.palette {
+    margin: 10px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+                                    
+.tea-last {
+    position: relative;
+    right: 17%
+}
+                                    /*The only reason I made the rules this comment sits between is because 
+                                    I couldn't find another way to make the 2nd row palette boxes sit closer to each other*/
+.tea-row {
+    position: relative;
+    left: 17%;
+}
+
+box {
+   /* border: 1px solid aquamarine;*/
+    width: 300px;
+    height: 260px;
+    display: flex;
+    flex-flow: wrap;
+}
+
+/* Locations */
+
+.locations {
+    /*border: 1px solid aquamarine;*/
+    margin: auto;
+    background-image: url('./images/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 500px;
+    width: 1200px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /*how to center darn boxes*//*answer: set title width to 100% and flexflow wrap*/
+    
+}
+
+.loc-box {
+    background-color: black;
+    width: 300px;
+    max-height: 300px;
+    margin: 15px 40px;
+    display: flex;
+    flex-flow: wrap column;
+    text-align: center;
+}
+
+
+/* Contact */
+
+.contact {
+    display: flex;
+  /*  border: 1px solid red;*/
+    flex-flow: column wrap;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+
+
+/* Footer */
+
+.footer {
+   /* border: 1px solid red;*/
+    width: 100%;
+    background-color: black;
+    height: 20px;
+    text-align: left;
+}
+
+/* Text */
+
+    a {
+    color: inherit;
+    }
+
+    a:hover {
+    color: brown;
+    transition: ease;
+    }
+
+    a:active {
+    font-weight: 800;
+    }
+
+.nav-item {
+    text-decoration: underline;
+    margin-left: 30px;
+    display: inline;
+    
+}
+
+.title {
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+#month {
+    margin-top: 50px; 
+}
+
+box h4 {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom:4px;
+}
+
+.locations h2 {
+   margin:auto;
+   text-align: center;
+   width: 100%;
+   vertical-align: middle;
+   /*border: 1px solid red;*/
+}
+
+.contact h2, .contact h5, .contact p {
+    /* border: 1px solid red;*/
+     margin: auto;
+ }
+
+ .footer h4 {
+    margin: 20px;
+    position: relative;
+    bottom: 20px;
+ }
+
+/* Images */
+
+.logo {
+    margin: 10px 10px;
+    height: 50px;
+
+}
+
+.month-img {
+    height: 200px;
+    width: 300px;
+}
